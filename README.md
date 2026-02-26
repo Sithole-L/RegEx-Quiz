@@ -21,6 +21,11 @@
 
 #### Code Design
 
+<img width="583" height="1056" alt="image" src="https://github.com/user-attachments/assets/5510f45c-9199-41a9-a0da-0c0350b571d4" />
+
+**Figure 2:** Class diagram
+
+
 ## Development
 
 ## Testing

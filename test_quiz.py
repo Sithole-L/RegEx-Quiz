@@ -1,6 +1,7 @@
 import unittest
 import os
 import csv
+from models import validate_username
 
 
 class TestRegexQuiz(unittest.TestCase):
@@ -30,6 +31,13 @@ class TestRegexQuiz(unittest.TestCase):
         for file in [self.test_file, self.test_results_file]:
             if os.path.exists(file):
                 os.remove(file)      
+
+    def test_username_validation_valid(self):
+        """
+        Test that valid usernames return True.
+        """
+        self.assertTrue(validate_username("DevUser23"))
+        self.assertTrue(validate_username("Coder"))            
 
 
 

@@ -237,7 +237,7 @@ The project utilises a dual-layered testing methodology to ensure the applicatio
 
 #### Automated Unit Testing
 
-We use Python's built-in `unittest` framework to validate the "brain" of the application (the `models.py` file). This is a **strategic approach** because it allows us to test critical logic—such as username validation and CSV data parsing—in isolation from the graphical interface.
+We use Python's built-in `unittest` framework to validate the "brain" of the application (the `models.py` file). This is a **strategic approach** because it allows us to test critical logic such as **username validation** and **CSV data parsing** in isolation from the graphical interface.
 
 **Justification:**
 

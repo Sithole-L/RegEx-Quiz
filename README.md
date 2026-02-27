@@ -301,7 +301,9 @@ def test_export_results(self):
 All **6 automated tests** passed successfully, ensuring the foundation of the application is stable.
 
 <img width="940" height="319" alt="image" src="https://github.com/user-attachments/assets/0b1ed341-c27c-43e9-aded-3124adbea175" />
+**Figure 3:** Terminal output
 
+---
 
 ## Documentation
 ---

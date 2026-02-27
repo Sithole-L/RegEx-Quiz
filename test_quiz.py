@@ -1,7 +1,7 @@
-import unittest
-import os
-import csv
-from models import validate_username, QuizEngine, Question
+import unittest         # provides TestCase, assertions, and test runner       
+import os               # used to check for, and remove temp files
+import csv              # used to create a test questions file and verify exported results
+from models import validate_username, QuizEngine, Question    # imports the app logic
 
 
 class TestRegexQuiz(unittest.TestCase):

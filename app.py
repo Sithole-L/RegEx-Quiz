@@ -1,8 +1,8 @@
-import tkinter as tk
-from tkinter import messagebox, ttk
-from models import QuizEngine, validate_username
-from datetime import datetime
-import csv
+import tkinter as tk                                # for creating the GUI
+from tkinter import messagebox, ttk                 # for styling and messagebox
+from models import QuizEngine, validate_username    # quiz logic & username validation
+from datetime import datetime                       # record quiz completion timestamp
+import csv                                          # read csv
 
 class RegExQuizApp:
     """

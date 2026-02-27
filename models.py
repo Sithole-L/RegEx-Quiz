@@ -1,6 +1,6 @@
-import csv
-import re
-from datetime import datetime
+import csv                      # read, write csv
+import re                       # regular expressions
+from datetime import datetime   # record timestamp
 
 def validate_username(name: str) -> bool:
     """
